@@ -1,5 +1,7 @@
 {
+  "name": "storybook-design-token",
   "private": true,
+  "version": "1.2.1-a2",
   "workspaces": [
     "addon",
     "demo"
