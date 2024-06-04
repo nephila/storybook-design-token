@@ -29,7 +29,8 @@
   ],
   "scripts": {
     "start": "tsc -p . -w",
-    "build": "rm -rf dist && tsc -p ."
+    "build": "rm -rf dist && tsc -p .",
+    "postinstall": "yarn build"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
