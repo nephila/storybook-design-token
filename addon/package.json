@@ -33,8 +33,13 @@
     "postinstall": "yarn build"
   },
   "peerDependencies": {
+    "postcss": "^8.3.5",
+    "postcss-scss": "^4.0.0",
+    "raw-loader": "^4.0.2",
     "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0",
+    "react-storage-hooks": "^4.0.1",
+    "react-use-clipboard": "^1.0.7"
   },
   "peerDependenciesMeta": {
     "react": {
@@ -48,12 +53,7 @@
     "@storybook/addons": "^6.3.4",
     "@storybook/components": "^6.3.4",
     "@storybook/theming": "^6.3.4",
-    "polished": "^4.1.0",
-    "postcss": "^8.3.5",
-    "postcss-scss": "^4.0.0",
-    "raw-loader": "^4.0.2",
-    "react-storage-hooks": "^4.0.1",
-    "react-use-clipboard": "^1.0.7"
+    "polished": "^4.1.0"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^6.3.4",
